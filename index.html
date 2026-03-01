@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhoomika Naludi | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    .hero {
+      background-color: rgb(153, 202, 235);
+      padding: 60px 0;
+    }
+
+    .hero img {
+      border-radius: 50%;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      transition: 0.5s;
+    }
+
+    #projects {
+      background-color: #eef4ff;
+    }
+
+    footer {
+      background-color: rgb(14, 14, 15);
+      color: white;
+      padding: 20px;
+    }
+
+    .skills-section {
+      background-color:white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Bhoomika Naludi</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="fw-bold">Bhoomika Naludi</h1>
+        <p class="lead">
+          I am an Electronics and Communication Engineering student with a strong interest 
+          in Software Development and UI Design. I am passionate about building clean, 
+          responsive, and user-friendly web applications.
+        </p>
+        <a href="#projects" class="btn btn-dark">View My Projects</a>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="./my phhh.jpeg" width="300" height="300" class="img-fluid" style="object-fit:cover;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-dark text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">About Me</h2>
+    <p>
+      I am currently pursuing my Bachelor’s degree in Electronics and Communication Engineering.
+      I have a growing interest in front-end development and UI design. I enjoy creating responsive,
+      visually appealing websites and learning new technologies.
+      <br><br>
+      I am continuously improving my skills in JavaScript, HTML, CSS, React.js, Node.js, and MongoDB.
+      My goal is to secure a software internship where I can apply my skills and gain real-world experience.
+    </p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">My Skills</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Programming</h5>
+        <p>JavaScript, C, C++</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Frontend</h5>
+        <p>HTML, CSS, Bootstrap, React.js</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Backend & Database</h5>
+        <p>Node.js, MongoDB</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Education</h2>
+
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.E - Electronics & Communication</td>
+            <td>BLDEA's College of engineering and Technology</td>
+            <td>2022 - 2026</td>
+            <td>8.59cgpa</td>
+          </tr>
+          <tr>
+            <td>PUC</td>
+            <td>Benakatti PU College</td>
+            <td>2020 - 2022</td>
+            <td>86.17%</td>
+          </tr>
+          <tr>
+            <td>SSLC</td>
+            <td>Excellent school</td>
+            <td>2020</td>
+            <td>90.72%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Projects</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./ai_website_builder_thumbnail.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">AI-BASED-AUTOMATIC-WEBSITE-BUILDER</h5>
+            <p class="card-text">AI Based Automatic Website Builder is a smart web application that generates 
+complete responsive websites using user-provided prompts. It utilizes AI algorithms 
+to design layouts, structure components, and produce optimized front-end code. 
+The project focuses on automation, user experience, and reducing development time.</p>
+            <a href="https://github.com/bhoomika-bldea/SiteForge-OpenRouter.git" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./slide.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">AI-Based Automatic Image Sliding Window</h5>
+            <p class="card-text">The AI-Based Automatic Image Sliding Window is a web-based project designed to automatically display images in a responsive slider format. It uses intelligent timing and dynamic transitions to improve visual presentation, enhance user engagement, and create modern interactive website interfaces.</p>
+            <a href="https://github.com/bhoomika-bldea/image-sliding.git" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Contact</h2>
+    <p>
+      Email: bhoomikanaludi@gmail.com <br>
+      Phone: +91 8123998630 <br>
+      LinkedIn: <a href="https://linkedin.com/in/bhoomika-naludi-382b693a1" target="_blank">View Profile</a>
+      github:<a href="https://github.com/bhoomika-bldea/SiteForge-OpenRouter.git" target="_blank">View profile</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <p>&copy; 2026 Bhoomika Naludi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
